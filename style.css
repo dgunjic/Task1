@@ -1,0 +1,103 @@
+.container{
+    width: 100%;
+   max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+
+.photo{
+   position: relative; 
+   width: 100%; /* for IE 6 */
+
+}
+.text{
+	position: absolute;
+	top:60%;
+	margin-left: 20%;
+	width: 570px;
+	height: 262px;
+    text-align:left;
+}
+.photo h1{    
+    position: sticky;
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+   
+}
+.photo h1:hover {
+    color: yellow;
+    text-decoration-line: underline;
+}
+.photo h2{    
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: #d7d7d7;
+}
+.photo h3{    
+   
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    color: #d7d7d7;
+}
+.photo h4{    
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.photo h4 i{
+    color:yellow;
+}
+.leftside {
+  float:left;
+  width:20%;
+  text-align:right;
+
+}
+.main {
+  margin-top: 30px;
+  margin-left: 20%;
+  width:60%;
+  padding:0 20px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.arrow{
+   text-align: center;
+}
+.back{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:#191919;
+}
+.right {
+  float:left;
+  width:20%;
+  
+}
+.btn {
+  -webkit-border-radius: 32px;
+  border-radius: 32px;
+}
+.footer{
+    position: relative; 
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.footer #share{
+    position: absolute;
+    top:30%;
+    left: 45%;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+ .main{
+    width:100%;
+  }
+}
